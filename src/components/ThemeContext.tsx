@@ -1,4 +1,4 @@
-import { createContext, useState, type JSX } from "react";
+import { createContext, useState } from "react";
 import { CiLight } from "react-icons/ci";
 import { FaMoon } from "react-icons/fa";
 import type { IconType } from 'react-icons/lib'

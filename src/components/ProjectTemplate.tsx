@@ -3,9 +3,8 @@ import { ThemeContext } from "./ThemeContext"
 import Nav from "./Nav"
 import { Link } from "react-router-dom"
 import Footer from "./Footer"
-import { FaExternalLinkAlt, FaReact } from "react-icons/fa";
-import { BsTypescript } from "react-icons/bs";
-import { RiTailwindCssFill } from "react-icons/ri";
+import { FaExternalLinkAlt } from "react-icons/fa";
+
 
 
 type ProjectTemplateProps = {
