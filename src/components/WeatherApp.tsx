@@ -2,8 +2,8 @@ import WeatherImageMobile from '../assets/images/weathermobile.png'
 import WeatherImageDesktop from '../assets/images/weatherapp.png'
 import ProjectTemplate from "./ProjectTemplate";
 import { FaReact } from 'react-icons/fa';
-import { BsTypescript } from 'react-icons/bs';
 import { RiTailwindCssFill } from 'react-icons/ri';
+import { IoLogoJavascript } from "react-icons/io5";
 
 const WeatherApp = () => {
 
@@ -22,8 +22,8 @@ const WeatherApp = () => {
                 <FaReact />
             </span>
 
-            <span className="text-[#3178C6]">
-                <BsTypescript />
+            <span className="text-[#F7DF1E]">
+                <IoLogoJavascript />
             </span>
 
             <span className="text-[#06B6D4]">
