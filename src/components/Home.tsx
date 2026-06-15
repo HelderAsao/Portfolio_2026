@@ -61,7 +61,7 @@ const Home = () => {
                     <div className='flex flex-col items-center p-8 gap-6'>
 
                         <img src={ProfileImage} alt="Profile Image" className={`border-${theme.colors.text} border-2 rounded-full w-64 h-64 object-cover mt-20`} />
-                        <p className='p-8 text-center max-w-2xl leading-7'>Olá, mundo! Meu nome é Helder! Estou estudando para me tornar desenvolvedor Front-end. Adoro aprender coisas novas e estou sempre em busca de novos desafios.</p>
+                        <p className='p-8 text-center max-w-2xl leading-7'>Olá! Meu nome é Helder. Sou desenvolvedor Front-end em transição de carreira, atualmente estudando e desenvolvendo projetos com React, TypeScript e Tailwind CSS.</p>
                         <a href='/cv2026.pdf' download className={`p-4 ${theme.colors.button} ${theme.colors.border} rounded hover:scale-110  transition-transform duration-300 ease-in-out `}>Baixar Currículo</a>
                     </div>
                     <About />
