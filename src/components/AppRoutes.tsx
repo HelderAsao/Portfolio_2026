@@ -4,6 +4,7 @@ import Projects from "./Projects";
 import CountryInfoApp from "./CountryInfoApp";
 import WeatherApp from "./WeatherApp";
 import ECommerceApp from "./ECommerceApp";
+import Jokenpo from "./Jokenpo";
 
 
 
@@ -15,7 +16,9 @@ const AppRoutes = () => {
                 <Route path="/projects" element={<Projects />} />
                 <Route path="/projects/country-info" element={<CountryInfoApp/>} />
                 <Route path="/projects/weather" element={<WeatherApp/>} />
-                <Route path="/projects/ecommerce" element={<ECommerceApp/>} />                
+                <Route path="/projects/ecommerce" element={<ECommerceApp/>} />  
+                <Route path="/projects/jokenpo" element={<Jokenpo/>} />  
+                              
             </Routes>
         </BrowserRouter >
     )

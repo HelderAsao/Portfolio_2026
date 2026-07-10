@@ -1,73 +1,56 @@
-# React + TypeScript + Vite
+# Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Portfólio pessoal desenvolvido em React para reunir e apresentar meus principais projetos, habilidades e tecnologias. A aplicação possui uma interface moderna, navegação entre páginas e design responsivo, proporcionando uma experiência intuitiva tanto em dispositivos móveis quanto em desktops.
 
-Currently, two official plugins are available:
+Cada projeto conta com uma página dedicada, contendo descrição, tecnologias utilizadas, desafios enfrentados, aprendizados adquiridos, além de links para o repositório no GitHub e para a demonstração online. O objetivo é apresentar não apenas os projetos concluídos, mas também minha evolução como desenvolvedor Front-end.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Live Demo
 
-## React Compiler
+[View Project Online](https://portfolio-2026-kappa-two.vercel.app/)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠 Tecnologias Utilizadas
 
-## Expanding the ESLint configuration
+- React
+- TypeScript
+- Tailwind CSS
+- HTML5
+- CSS3
+- JavaScript (ES6+)
+- React Router DOM
+- Vite
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🚧 Desafios e Aprendizados
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+Durante o desenvolvimento deste projeto enfrentei alguns desafios importantes:
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+- Estruturar uma aplicação React utilizando componentes reutilizáveis.
+- Organizar o roteamento entre as páginas com React Router DOM.
+- Desenvolver uma interface totalmente responsiva para dispositivos móveis e desktops.
+- Criar um componente reutilizável para exibir as informações dos projetos de forma consistente.
+- Implementar alternância entre os temas claro e escuro utilizando Context API.
+- Organizar o código pensando em escalabilidade e facilidade de manutenção, permitindo adicionar novos projetos com praticidade.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 🧠 O que Aprendi
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Durante este projeto aprofundei meus conhecimentos em:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- Componentização em React.
+- Gerenciamento de estado utilizando Context API.
+- Tipagem de componentes e props com TypeScript.
+- Navegação entre páginas com React Router DOM.
+- Desenvolvimento de interfaces responsivas utilizando Tailwind CSS.
+- Organização e reutilização de componentes.
+- Estruturação de aplicações React utilizando boas práticas de organização e manutenção.
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 🚀 Melhorias Futuras
+
+- Adicionar animações e transições para tornar a navegação mais dinâmica.
+- Implementar filtros para exibir projetos por tecnologia.
+- Integrar um formulário de contato funcional.
+- Internacionalizar o portfólio (Português e Inglês).
+- Adicionar testes para os principais componentes.
+- Incluir novos projetos conforme minha evolução como desenvolvedor.
+
+---
+
+Este projeto foi desenvolvido para servir como meu portfólio profissional, reunindo meus principais projetos, experiências e tecnologias, além de acompanhar minha evolução contínua como desenvolvedor Front-end.

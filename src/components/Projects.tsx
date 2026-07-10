@@ -20,6 +20,10 @@ const Projects = () => {
         {
             'name': 'E-commerce Interface',
             'route': '/projects/ecommerce'
+        },
+        {
+            'name': 'Jokenpo Game',
+            'route':'/projects/jokenpo'
         }
     ]
 
